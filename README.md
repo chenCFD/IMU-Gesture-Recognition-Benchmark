@@ -4,15 +4,15 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat-square)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
-A unified, end-to-end PyTorch benchmarking framework for **IMU-based Hand Gesture Recognition (HGR)**. 
+PyTorch benchmark for **IMU-based Hand Gesture Recognition (HGR)**. 
 
-Research in IMU hand gesture recognition is often fragmented due to varying dataset formats, different sensor configurations (1, 2, or 3 IMUs), and inconsistent evaluation metrics. **This repository solves that.** It provides a standardized pipeline to fairly evaluate and compare classic open-source models alongside the latest academic State-of-the-Art (SOTA) architectures (2025/2026) across multiple public datasets.
+This provides a standardized pipeline to compare classic open-source models and the latest academic State-of-the-Art (SOTA) architectures (2025/2026) across multiple public datasets.
 
 ---
 
 ## Supported Datasets
 
-We currently support 3 public Kaggle datasets, covering scenarios from single wristbands to full-hand sensor gloves. The pipeline standardizes them into `(Batch, Timestamp, Channel)` inputs.
+We currently support 3 public Kaggle datasets. The pipeline standardizes them into `(Batch, Timestamp, Channel)` inputs and `(Classes)` output.
 
 | Dataset ID | Source | # IMUs | Input Shape `(T, C)` | Output Classes | Description |
 | :---: | :--- | :---: | :---: | :---: | :--- |
@@ -32,7 +32,7 @@ This benchmark unifies unofficial implementations from diverse sources into a si
 * `CRNN` (based on [TemryL/EyeRub-Det](https://github.com/TemryL/EyeRub-Det))
 * `RCNN` (based on [dhruba0/gesture_recognition_imu](https://github.com/dhruba0/gesture_recognition_imu))
 
-**Recent Academic SOTA (unofficial Re-implemented):**
+**Recent Academic SOTA (unofficial implementation):**
 * `TF_Fusion_2025`: Dual IMU-Based HGR With Time–Frequency Feature Fusion (IEEE Sensors 2025).
 * `Huawei_Transformer_2026`: OpenWatch Multimodal Benchmark Architecture (arXiv 2026).
 
@@ -74,7 +74,7 @@ python train.py --model CRNN --dataset imu1
 ## References & Acknowledgements
 This framework builds upon the excellent data collection and architectural designs from the open-source community. If you use this pipeline, please consider citing the original dataset authors and the respective papers:
 
-Academic Papers Unofficial Re-implemented in this Paper:
+Academic Papers Unofficial Implementation in this Paper:
 ```bash
 @misc{bonazzi2026openwatchmultimodalbenchmarkhand,
       title={OpenWatch: A Multimodal Benchmark for Hand Gesture Recognition on Smartwatches}, 
