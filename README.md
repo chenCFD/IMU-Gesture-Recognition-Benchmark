@@ -80,9 +80,9 @@ python train.py --model CRNN --dataset imu3
 This framework builds upon the excellent data collection and architectural designs from the open-source community. If you use this pipeline, please consider citing the original dataset authors, Github open source repo and the respective papers:
 
 Dataset:  
-1 IMU dataset: [6-axis-motion-gesture-dataset-hand-waves-and-flicks](https://www.kaggle.com/datasets/dilharajayawardhane/6-axis-motion-gesture-dataset-hand-waves-and-flicks)  
-2 IMU dataset: [hand-gesture-classification-2-imu-glove](https://www.kaggle.com/datasets/suveenellawela/hand-gesture-classification-2-imu-glove)  
-3 IMU dataset: [3-imu-glove](https://www.kaggle.com/datasets/harrisonlou/imu-glove) 
+1-IMU: [6-axis-motion-gesture-dataset-hand-waves-and-flicks](https://www.kaggle.com/datasets/dilharajayawardhane/6-axis-motion-gesture-dataset-hand-waves-and-flicks)  
+2-IMU: [hand-gesture-classification-2-imu-glove](https://www.kaggle.com/datasets/suveenellawela/hand-gesture-classification-2-imu-glove)  
+3-IMU: [3-imu-glove](https://www.kaggle.com/datasets/harrisonlou/imu-glove) 
 
 
 
