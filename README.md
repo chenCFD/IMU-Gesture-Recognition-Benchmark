@@ -56,4 +56,46 @@ python make_dataset_imu3.py
 python split_dataset.py --dataset imu3
 
 # You can repeat this for imu1 and imu2
-# python make_dataset_imu1.py && python split_dataset.py --dataset imu1```
+# python make_dataset_imu1.py && python split_dataset.py --dataset imu1
+```
+
+### Step 3: Train & Benchmark
+Train any model on any dataset using the unified entry point. The script will automatically handle dimension matching based on the dataset selected.
+```bash
+# Syntax: python train.py --model [MODEL_NAME] --dataset [DATASET_ID]
+
+# Example: Train the 2026 Transformer on the 3-IMU dataset
+python train.py --model Huawei_Transformer_2026 --dataset imu3
+
+# Example: Compare it with a classic CRNN on the 1-IMU dataset
+python train.py --model CRNN --dataset imu1
+```
+
+## References & Acknowledgements
+This framework builds upon the excellent data collection and architectural designs from the open-source community. If you use this pipeline, please consider citing the original dataset authors and the respective papers:
+
+Academic Papers Re-implemented in this Repo:
+```bash
+@misc{bonazzi2026openwatchmultimodalbenchmarkhand,
+      title={OpenWatch: A Multimodal Benchmark for Hand Gesture Recognition on Smartwatches}, 
+      author={Pietro Bonazzi and Youssef Ahmed and Daniel Eckert and Andrea Ronco and Junjie Zeng and Dengxin Dai and Michele Magno},
+      year={2026},
+      eprint={2605.04791},
+      archivePrefix={arXiv},
+      primaryClass={cs.HC},
+      url={[https://arxiv.org/abs/2605.04791](https://arxiv.org/abs/2605.04791)}, 
+}
+```
+
+```bash
+@ARTICLE{11142918,
+  author={Liu, Yizhen and Meng, Zhaozong and Ni, Yubo and Jia, Shikui and Gao, Nan and Zhang, Zonghua},
+  journal={IEEE Sensors Journal}, 
+  title={Dual IMU-Based Hand Gesture Recognition With Time–Frequency Feature Fusion}, 
+  year={2025},
+  volume={25},
+  number={19},
+  pages={37244-37254},
+  doi={10.1109/JSEN.2025.3601375}
+}
+```
