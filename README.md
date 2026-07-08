@@ -57,6 +57,7 @@ python download_dataset.py
 Transform the raw data into standardized .pt tensors, then split them into Training, Validation, and Testing sets.
 ```bash
 # Example for IMU3:
+cd feature
 python make_dataset_imu3.py
 python split_dataset.py --dataset imu3
 
