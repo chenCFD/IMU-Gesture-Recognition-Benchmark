@@ -16,9 +16,9 @@ We currently support 3 public Kaggle datasets. The pipeline standardizes them in
 
 | Dataset ID | Source | # IMUs | Input Shape `(T, C)` | Output Classes | Description |
 | :---: | :--- | :---: | :---: | :---: | :--- |
-| **`imu1`** | [Kaggle Link](https://www.kaggle.com/datasets/dilharajayawardhane/6-axis-motion-gesture-dataset-hand-waves-and-flicks) | 1 | `(50, 6)` | 5 | Basic Hand Waves and Flicks (6-axis) |
-| **`imu2`** | [Kaggle Link](https://www.kaggle.com/datasets/suveenellawela/hand-gesture-classification-2-imu-glove) | 2 | `(24, 12)` | 7 | 2-IMU Smart Glove setup |
-| **`imu3`** | [Kaggle Link](https://www.kaggle.com/datasets/harrisonlou/imu-glove) | 3 | `(90, 18)` | 8 | Advanced 3-IMU spatial tracking |
+| **`imu1`** | [Kaggle Link](https://www.kaggle.com/datasets/dilharajayawardhane/6-axis-motion-gesture-dataset-hand-waves-and-flicks) | 1 | `(50, 6)` | 5 | 6-Axis Motion Gesture Dataset: Hand Waves & Flicks |
+| **`imu2`** | [Kaggle Link](https://www.kaggle.com/datasets/suveenellawela/hand-gesture-classification-2-imu-glove) | 2 | `(24, 12)` | 7 | Hand Gesture Classification 2-IMU Glove |
+| **`imu3`** | [Kaggle Link](https://www.kaggle.com/datasets/harrisonlou/imu-glove) | 3 | `(90, 18)` | 8 | Hand Gesture Classification 3-IMU Glove |
 
 ---
 
