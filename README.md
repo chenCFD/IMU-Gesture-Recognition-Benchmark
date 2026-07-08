@@ -85,9 +85,9 @@ Dataset:
 `3-IMU`: [3-imu-glove](https://www.kaggle.com/datasets/harrisonlou/imu-glove) 
 
 Github:  
-`CNN`: [Dilharajay/gesture-cmd](https://github.com/Dilharajay/gesture-cmd)
-`LSTM`: [IyanekiB/Smart-Glove...](https://github.com/IyanekiB/Smart-Glove-Gesture-Recognition-Using-ML)
-`CRNN`: [TemryL/EyeRub-Det](https://github.com/TemryL/EyeRub-Det)
+`CNN`: [Dilharajay/gesture-cmd](https://github.com/Dilharajay/gesture-cmd)  
+`LSTM`: [IyanekiB/Smart-Glove...](https://github.com/IyanekiB/Smart-Glove-Gesture-Recognition-Using-ML)  
+`CRNN`: [TemryL/EyeRub-Det](https://github.com/TemryL/EyeRub-Det)  
 `RCNN`: [dhruba0/gesture_recognition_imu](https://github.com/dhruba0/gesture_recognition_imu)
 
 
