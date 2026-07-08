@@ -1,4 +1,4 @@
-# IMU-Gesture-Recognition-Benchmark
+# IMU-Hand-Gesture-Recognition-Benchmark
 
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat-square&logo=PyTorch&logoColor=white)](https://pytorch.org/)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg?style=flat-square)](https://www.python.org/downloads/)
