@@ -42,6 +42,11 @@ This benchmark unifies unofficial implementations from diverse sources into a si
 
 Follow these steps to reproduce the benchmarks. 
 
+### Step 0: Install Environment
+```bash
+pip install requirements.txt
+```
+
 ### Step 1: Download Datasets
 Fetch the required public datasets automatically from Kaggle.
 ```bash
@@ -67,12 +72,17 @@ Train any model on any dataset using the unified entry point. The script will au
 # Example: Train the 2026 Transformer on the 3-IMU dataset
 python train.py --model Huawei_Transformer_2026 --dataset imu3
 
-# Example: Compare it with a classic CRNN on the 1-IMU dataset
-python train.py --model CRNN --dataset imu1
+# Example: Compare it with a classic CRNN on the 3-IMU dataset
+python train.py --model CRNN --dataset imu3
 ```
 
 ## References & Acknowledgements
-This framework builds upon the excellent data collection and architectural designs from the open-source community. If you use this pipeline, please consider citing the original dataset authors and the respective papers:
+This framework builds upon the excellent data collection and architectural designs from the open-source community. If you use this pipeline, please consider citing the original dataset authors, Github open source repo and the respective papers:
+
+Dataset:
+[6-axis-motion-gesture-dataset-hand-waves-and-flicks](https://www.kaggle.com/datasets/dilharajayawardhane/6-axis-motion-gesture-dataset-hand-waves-and-flicks)
+[hand-gesture-classification-2-imu-glove](https://www.kaggle.com/datasets/suveenellawela/hand-gesture-classification-2-imu-glove)
+[3-imu-glove](https://www.kaggle.com/datasets/harrisonlou/imu-glove)
 
 Academic Papers Unofficial Implementation in this Paper:
 ```bash
