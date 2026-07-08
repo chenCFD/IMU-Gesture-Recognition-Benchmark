@@ -6,7 +6,7 @@
 
 A unified, end-to-end PyTorch benchmarking framework for **IMU-based Hand Gesture Recognition (HGR)**. 
 
-Research in IMU gesture recognition is often fragmented due to varying dataset formats, different sensor configurations (1, 2, or 3 IMUs), and inconsistent evaluation metrics. **This repository solves that.** It provides a standardized pipeline to fairly evaluate and compare classic open-source models alongside the latest academic State-of-the-Art (SOTA) architectures (2025/2026) across multiple public datasets.
+Research in IMU hand gesture recognition is often fragmented due to varying dataset formats, different sensor configurations (1, 2, or 3 IMUs), and inconsistent evaluation metrics. **This repository solves that.** It provides a standardized pipeline to fairly evaluate and compare classic open-source models alongside the latest academic State-of-the-Art (SOTA) architectures (2025/2026) across multiple public datasets.
 
 ---
 
@@ -74,7 +74,7 @@ python train.py --model CRNN --dataset imu1
 ## References & Acknowledgements
 This framework builds upon the excellent data collection and architectural designs from the open-source community. If you use this pipeline, please consider citing the original dataset authors and the respective papers:
 
-Academic Papers Re-implemented in this Repo:
+Academic Papers Unofficial Re-implemented in this Paper:
 ```bash
 @misc{bonazzi2026openwatchmultimodalbenchmarkhand,
       title={OpenWatch: A Multimodal Benchmark for Hand Gesture Recognition on Smartwatches}, 
