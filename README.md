@@ -45,7 +45,8 @@ Follow these steps to reproduce the benchmarks.
 ### Step 1: Download Datasets
 Fetch the required public datasets automatically from Kaggle.
 ```bash
-python download_dataset.py```
+python download_dataset.py
+```
 
 ### Step 2: Build & Split Datasets
 Transform the raw data into standardized .pt tensors, then split them into Training, Validation, and Testing sets.
