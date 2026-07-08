@@ -118,3 +118,6 @@ Academic Papers Unofficial Implementation in these Papers:
   doi={10.1109/JSEN.2025.3601375}
 }
 ```
+
+## License
+This repository is MIT License.
